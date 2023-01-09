@@ -1,0 +1,502 @@
+.dev-section{
+    background-color: transparent;
+    padding: 40px 13%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.colmn{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.dev-num01{
+    display: inline-block;
+    font-size: 20vw;
+    text-align: right;
+    font-weight: 700;
+    text-shadow: 0px 10px 30px black;
+    z-index: 100;
+}
+
+.dev-section h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4.5vw;
+}
+
+.dev-thumbnail{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50%;
+    width:  50vw;
+    margin-right: 10px;
+}
+
+
+.develop-section{
+    background-color: transparent;
+    margin: 50px 0px;
+    padding-bottom: 40px;
+}
+
+.develop-section h1{
+    text-transform: uppercase;
+    font-size: 70px;
+    margin-left: 13%;
+}
+
+.developer-count{
+    display: inline-block;
+    font-size: 15vw;
+    text-align: right;
+    font-weight: 700;
+    text-shadow: 0px 10px 30px black;
+    z-index: 100;
+    padding-top: 50px;
+}
+
+.developer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.developer-container .note1{
+    margin-left: 13%;
+    width: 30%;
+}
+
+.developer-container .note2{
+    width: 30%;
+    margin-right: 15%;
+}
+
+.developer-container .note1::first-letter, .developer-container .note2::first-letter, .next-p::first-letter{
+    text-transform: uppercase;
+}
+
+.developer-thumbnail{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70vh;
+    max-width: 350px;
+    min-width: 100%;
+    margin-top: 50px;
+}
+
+
+.about-section{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 40px 13%;
+    margin-bottom: 0px;
+}
+
+.about-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-column{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+.about-count{
+    display: inline;
+    font-size: 10vw;
+    text-align: left;
+    font-weight: 700;
+    color: grey;
+    text-shadow: 0px 0.8vw 0px lightgray;
+    z-index: 100;
+}
+
+.about-column h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: grey;
+}
+
+.about-column p{
+    text-indent: 20%;
+    text-transform: uppercase;
+    color: lightgray;
+}
+
+.about-column .ui-ux-head{
+    padding-top: 400px;
+}
+
+.about-column .ui-ux-p{
+    padding-top: 30px;
+}
+
+
+.workspace-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding: 40px 13%;
+    padding-top: 100px;
+    margin-bottom: 40px;
+}
+
+
+.workspace-details{
+    width: 300px;
+}
+.workspace-head{
+    padding-bottom: 270px;
+}
+
+.workspace-head h3{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.workspace-head p{
+    text-transform: uppercase;
+    text-indent: 10%;
+    padding-top: 20px;
+    /* font-size: 16px; */
+    font-size: 1.3vw;
+    font-weight: 450;
+    word-spacing: 3px;
+}
+
+.workspace-pointed-in-details p{
+    text-indent: 10%;
+    text-transform: uppercase;
+    /* font-size: 15px; */
+    font-size: 1.2vw;
+    font-weight: 600;
+    word-spacing: 10px;
+}
+
+.workspace-image{
+    height: 500px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.workspace-image .workspace-thumbnail{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+
+.expreince-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 40px 13%;
+}
+
+.expreince-section .expreince-learnmore{
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 45px;
+}
+
+.expreince-section .expreince-learnmore a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.expreince-section .expreince-learnmore a:hover{
+    text-decoration: none;
+}
+
+.expreince-item{
+    display: block;
+    text-transform: capitalize;
+    padding: 5px 0px;
+}
+
+.expreince-gap{
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    margin: 0px 10px;
+    border-bottom: 1px solid rgb(119, 119, 119);
+}
+
+.expreince-years{
+    float: right;
+}
+
+
+
+
+.service-section{
+    background-color: transparent;
+    margin: 50px 0px;
+    padding-bottom: 40px;
+}
+
+.service-section h1{
+    text-transform: uppercase;
+    padding: 40px;
+    padding-bottom: 80px;
+    font-size: 5rem;
+    margin-left: 10%;
+}
+
+.service{
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1.9px solid black;
+}
+
+.service .service-count{
+    display: inline-block;
+    background-color: transparent;
+    width: 25%;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.service .open-service{
+    background-color: transparent;
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 15px;
+    transition: 0.5s linear;
+}
+
+.service-details{
+    visibility: hidden;
+    position: absolute;
+    margin-left: 25%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.service-details-show{
+    visibility: visible;
+    position: relative;
+    margin-left: 25%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.service-details div{
+    padding: 5px 0px;
+    text-transform: capitalize;
+}
+
+.service .service-content .service-context{
+    font-weight: 600;
+    padding: 6px 0px;
+    padding-right: 100px;
+    text-transform: capitalize;
+}
+
+.service .service-content .service-context::first-letter{
+    text-transform: uppercase;
+}
+
+.help-section{
+    display: block;
+    background-color: transparent;
+    font-size: 14px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.help-you-with{
+    text-align: left;
+    margin-left: 12%;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+
+.help-note-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.help-note{
+    width: 300px;
+    margin: 0px 30px;
+}
+
+.help-note span{
+    display: block;
+    padding: 10px 0px;
+    font-size: inherit;
+    border-bottom: 1px solid silver;
+}
+
+.help-note h3{
+    padding: 10px 0px;
+    text-transform: capitalize;
+}
+
+.help-note p::first-letter{
+    text-transform: uppercase;
+}
+
+
+
+
+.passion-section{
+    padding: 40px 5%;
+    margin-bottom: 50px;
+}
+
+.passion-head{
+    padding: 20px 0px;
+    font-size: 1.1vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.passion-headers{
+    padding-bottom: 40px;
+}
+
+.passion-headers h3{
+    text-transform: uppercase;
+    font-size: 5vw;
+    font-weight: 700;
+    display: inline-block;
+    margin: 0px 4vw;
+    cursor: pointer;
+}
+
+.passion-headers .a-visual-passion{
+    color: rgb(185, 185, 185);
+}
+
+.passion-headers .active-visual-passion{
+    color: black;
+}
+
+.visual-passion-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 50vh;
+}
+
+.passion-details-section{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    width: 40%;
+}
+
+.passion-details-section h5{
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.passion-details-section p{
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+
+.passion-link{
+    text-transform: capitalize;
+    color: rgb(0, 141, 197);
+    text-decoration: none;
+}
+
+.passion-link:hover{
+    text-decoration: none;
+}
+
+.passion-details-section p::first-letter{
+    text-transform: uppercase;
+
+}
+
+.passion-thumbnail{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 50%;
+}
+
+
+
+.getin-touch-section{
+    display: block;
+    background-color: transparent;
+    padding-bottom: 0px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.getin-touch-section h2{
+    text-transform: uppercase;
+    font-size: 2vw;
+    margin-left: 12%;
+    letter-spacing: 20px;
+    font-weight: 700;
+}
+
+.getin-touch-section h2 span{
+    margin-left: 40px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.getin-touch-section ul {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-right: 20%;
+    padding-top: 50px;
+}
+
+.getin-touch-section ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 0px;
+    font-size: 2vw;
+    letter-spacing: 1vw;
+}
+
+.getin-touch-section ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.getin-touch-section ul li a:hover{
+    text-decoration: none;
+}

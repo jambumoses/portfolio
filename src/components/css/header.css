@@ -1,0 +1,56 @@
+@media (min-width: 980px) {
+
+    .mobile-nav{
+        position: absolute;
+        visibility: hidden;
+    }
+
+    #hide-mobile-nav{
+        position: absolute;
+        visibility: hidden;
+    }
+
+    header{
+        background-color: rgb(243, 243, 243);
+        margin-bottom: 0px;
+        padding: 0px 50px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+    
+    header section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .code-with{
+        text-transform: capitalize;
+    }
+    
+    .code-with span{
+        font-weight: normal;
+    }
+    
+    .current-work{
+        text-transform: capitalize;
+        font-size: inherit;
+    }
+    
+    .based-country{
+        text-transform: capitalize;
+        font-size: inherit;
+    }
+    
+    .nav span{
+        padding: 0px 3px;
+    }
+    
+    .nav span .nav-item{
+        text-decoration: none;
+        color: black;
+        text-transform: capitalize;
+    }
+
+}

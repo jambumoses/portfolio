@@ -1,0 +1,48 @@
+@media (min-width: 980px) {
+
+    .mobile-footer{
+        position: absolute;
+        visibility: hidden;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: rgb(243, 243, 243);
+        padding: 2% 3%;
+        font-size: 14px;
+    }
+    
+    .footer-developer{
+        padding: 0px 20px;
+        text-align: left;
+        text-transform: capitalize;
+    }
+    
+    .footer-socials{
+        padding: 0px 20px;
+        text-transform: capitalize;
+        padding-top: 10px;
+    }
+    
+    .footer-socials a{
+        text-decoration: none;
+        color: rgb(0, 58, 82);
+        padding-left: 5px;
+    }
+    
+    .footer-socials a:hover{
+        text-decoration: none;
+    }
+    
+    .footer-ux-ui{
+        padding: 0px 20px;
+        text-transform: capitalize;
+    }
+    
+    .footer-ux-ui span{
+        display: block;
+        text-align: right;
+    }   
+}

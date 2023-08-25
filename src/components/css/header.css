@@ -53,4 +53,9 @@
         text-transform: capitalize;
     }
 
+    .nav span .nav-item .active{
+        text-decoration: underline;
+        color: rgb(71,71,71);
+    }
+
 }

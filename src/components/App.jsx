@@ -6,10 +6,13 @@ import Work from "./pages/Work.jsx";
 import {BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./css/app.css";
 import "./css/fonts.css";
+import { Provider } from "react-redux";
+import store from "../store/index.js";
 
 function App(){
     return (
         <>
+        <Provider store={store}>
         <Router>
             <Header/>
                 <Switch>
@@ -18,6 +21,7 @@ function App(){
                 </Switch>
             <Footer/>
         </Router>
+        </Provider>
         </>
     );
 }

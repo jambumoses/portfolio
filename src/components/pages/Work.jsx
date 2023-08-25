@@ -10,7 +10,17 @@ import update_Page_title, { auto_update_passion,select_passion } from "./functio
 import Passion from "./Passion";
 import Services from "./Services";
 
+import { constantActions } from "../../store/constantSlice";
+import { useDispatch, useSelector } from "react-redux";
+
 function Work() {
+
+    const dispatch = useDispatch();
+    const companyName = useSelector((state) => state.constant.companyTitle);
+  
+    dispatch(constantActions.updatePageTitles(companyName + " . " + "Work")); // company name here
+    dispatch(constantActions.setCurrentPage("Work"));
+
     useEffect(()=>{
         Aos.init({duration: 2000});
     },[]);

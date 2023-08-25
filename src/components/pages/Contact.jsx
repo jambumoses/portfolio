@@ -10,7 +10,16 @@ import { useState } from "react";
 import image from "./css/allef-vinicius-hxNiXP498UI-unsplash.jpg";
 import update_Page_title from "./functionilities.js";
 
+import { useDispatch, useSelector } from "react-redux";
+import { constantActions } from "../../store/constantSlice.js";
+
 function Contact(){
+
+    const dispatch = useDispatch();
+    const companyName = useSelector((state) => state.constant.companyTitle);
+  
+    dispatch(constantActions.updatePageTitles(companyName + " . " + "Contact")); // company name here
+    dispatch(constantActions.setCurrentPage("Contact"));
 
     useEffect(()=>{
         Aos.init({duration: 2000});

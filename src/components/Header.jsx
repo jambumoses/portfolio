@@ -8,8 +8,11 @@ import "./css/responsive/mobileHeader.css"
 import information from "./pages/information";
 import { Link } from "react-router-dom";
 import {Menu} from "@material-ui/icons";
+import { useSelector } from "react-redux";
 
 function Header(){
+    // getting current page
+    const getCurrentPage = useSelector((state) => state.constant.currentPage);
 
     useEffect(()=>{
         Aos.init({duration: 1000});
@@ -48,8 +51,8 @@ function Header(){
                 <div>
                     <nav className="nav">
                         {/* <span><a href="#">work ,</a></span> */}
-                        <span><Link className="nav-item" to={information.pages.home.link}>{information.pages.home.string}</Link></span>
-                        <span><Link className="nav-item" to={information.pages.contact.link}>{information.pages.contact.string}</Link></span>
+                        <span><Link style={{color: (getCurrentPage === "Work")?"gray":null,textDecoration: (getCurrentPage === "Work")?"underline":null}} className="nav-item" to={information.pages.home.link}>{information.pages.home.string}</Link></span>
+                        <span><Link style={{color: (getCurrentPage === "Contact")?"gray":null,textDecoration: (getCurrentPage === "Contact")?"underline":null}} className="nav-item" to={information.pages.contact.link}>{information.pages.contact.string}</Link></span>
                         <div className="mobile-nav">
                             <Menu id={currentMenuSate} onClick={menu} />
                         </div>

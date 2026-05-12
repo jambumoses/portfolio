@@ -1,0 +1,134 @@
+
+@media (max-width: 980px) {
+
+    header{
+        background-color: black;
+        margin-bottom: 0px;
+        padding: 0px 50px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        font-size: 13px;
+        height: 50px;
+        width: 100vw;
+        position: fixed;
+        z-index: 200;
+    }
+
+    .mobile-space{
+        padding-top: 15vh;
+    }
+    
+    #hide-mobile-nav{
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.836);
+        height: 100vh;
+        width: 100vw;
+        left: 0px;
+        margin-top: 4.2vh;
+        overflow: hidden;
+        z-index: 100;
+    }
+
+    .mobile-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        justify-items: center;
+        background-color: transparent;
+        color: lightgray;
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        right: 5vw;
+        top: 8px;
+        cursor: pointer;
+    }
+
+    .mobile-nav div{
+        color: lightgray;
+    }
+    
+    .mobile-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.836);
+        height: 100vh;
+        width: 100vw;
+        left: 0px;
+        margin-top: 4.2vh;
+        overflow: hidden;
+        z-index: 100;
+    }
+
+    .mobile-nav-titles{
+        display: inline-block;
+        background-color: transparent;
+        color: wheat;
+        margin-top: -30px;
+    }
+
+    .mobile-nav-titles div{
+        margin: 5vh;
+        text-transform: capitalize;
+    }
+
+    .mobile-nav-titles div .mobile-links{
+    color: white;
+    text-shadow: 0px 40px 10px black;
+    font-size: 10vw;
+    font-weight: 700;
+    text-decoration: none;
+    }
+
+    header section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .code-with{
+        text-transform: capitalize;
+        color: lightgray;
+    }
+    
+    .code-with span{
+        font-weight: normal;
+    }
+    
+    .current-work{
+        visibility: hidden;
+        position: absolute;
+        text-transform: capitalize;
+        font-size: inherit;
+        color: lightgray;
+    }
+    
+    .based-country{
+        text-transform: capitalize;
+        font-size: inherit;
+        color: lightgray;
+        position: absolute;
+        visibility: hidden;
+    }
+    
+    .nav span{
+        padding: 0px 3px;
+        position: absolute;
+        visibility: hidden;
+    }
+    
+    .nav span a{
+        text-decoration: none;
+        color: black;
+        text-transform: capitalize;
+    }    
+}

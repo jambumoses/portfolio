@@ -1,0 +1,182 @@
+.work-banner{
+    height: 100vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 13%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+.banner-about-inshort{
+    padding-right: 30px;
+    width: 50%;
+}
+
+
+.myname{
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.banner-about-inshort .banner-short-note{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 5vh;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    width: 30vw;
+    text-align: left;
+}
+
+.arrow-dev-short{
+    display: inline-block;
+    position: absolute;
+    bottom: 10vh;
+}
+
+.arrow-dev-short .arrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    animation: arrow 5s infinite;
+}
+
+.arrow-dev-short-work{
+    left: -10vw;
+    top: -10vh;
+}
+
+@keyframes arrow {
+    0% {
+        margin-top: -20px;
+        transition: .05s linear;
+    }
+ 
+    25%{
+        margin-top: 20px;
+        transition: .05s linear;
+    }
+
+    50% {
+        margin-top: -20px;
+        transition: .05s linear;
+    }
+ 
+    75%{
+        margin-top: 20px;
+        transition: .05s linear;
+    }
+    100%{
+        margin-top: -20px;
+        transition: .05s linear;
+    }
+}
+
+.arrow-dev-short .arrow-info{
+    display: inline-block;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-weight: initial;
+    word-spacing: 0.5vw;
+    margin-left: 10vw;
+}
+
+
+.dev-profile{
+    display: block;
+    height: 100%;
+    width: 50%;
+    text-align: right;
+}
+
+.profile-thumbnail{
+    display: inline-block;
+    /* background: url("./allef-vinicius-hxNiXP498UI-unsplash.jpg") no-repeat center; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 55vh;
+    width: 25vw;
+    margin-bottom: 10px;
+}
+
+.dev-profile p{
+    display: inline-block;
+    width: 25vw;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+
+
+.work-info-section{
+    background-color: transparent;
+    padding: 40px 13%;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.work-info-head{
+    padding: 40px;
+}
+
+.work-info-head p{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+
+.work-info-2{
+    display: flex;
+    width: 100%;
+}
+.work-info-2-left{
+    width: 50%;
+}
+
+.work-info-2-left p{
+    font-size: 1.2vw;
+}
+
+.work-info-2-left p::first-letter{
+ text-transform: uppercase;
+}
+
+.work-info-2-right{
+    width: 50%;
+}
+
+.work-info-2-right p{
+    font-size: 1.2vw;
+}
+
+.work-info-2-right p::first-letter{
+    text-transform: uppercase;
+}
+
+.work-info-2-more-btn{
+    padding-top: 40px;
+    display: inline-block;
+    text-transform: capitalize;
+    border-bottom: 1px solid black;
+    font-size: 1.2vw;
+}
+
+.work-info-2-more-btn .more-link{
+    text-decoration: none;
+    color: inherit;
+}
